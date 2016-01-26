@@ -15,6 +15,7 @@
 		D356174D1C57161E0086A9DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D356174B1C57161E0086A9DC /* LaunchScreen.storyboard */; };
 		D35617581C57161E0086A9DC /* iOS_TextField_DelgatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35617571C57161E0086A9DC /* iOS_TextField_DelgatesTests.swift */; };
 		D35617631C57161E0086A9DC /* iOS_TextField_DelgatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35617621C57161E0086A9DC /* iOS_TextField_DelgatesUITests.swift */; };
+		D35617711C5719A10086A9DC /* ZipDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35617701C5719A10086A9DC /* ZipDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D356175E1C57161E0086A9DC /* iOS_TextField_DelgatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_TextField_DelgatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35617621C57161E0086A9DC /* iOS_TextField_DelgatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TextField_DelgatesUITests.swift; sourceTree = "<group>"; };
 		D35617641C57161E0086A9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35617701C5719A10086A9DC /* ZipDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				D356173F1C57161D0086A9DC /* AppDelegate.swift */,
 				D35617411C57161D0086A9DC /* ViewController.swift */,
 				D35617431C57161E0086A9DC /* Main.storyboard */,
+				D35617701C5719A10086A9DC /* ZipDelegate.swift */,
 				D35617491C57161E0086A9DC /* Assets.xcassets */,
 				D356174B1C57161E0086A9DC /* LaunchScreen.storyboard */,
 				D356174E1C57161E0086A9DC /* Info.plist */,
@@ -261,6 +264,7 @@
 			files = (
 				D35617421C57161D0086A9DC /* ViewController.swift in Sources */,
 				D35617401C57161D0086A9DC /* AppDelegate.swift in Sources */,
+				D35617711C5719A10086A9DC /* ZipDelegate.swift in Sources */,
 				D35617481C57161E0086A9DC /* iOS_TextField_Delgates.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
