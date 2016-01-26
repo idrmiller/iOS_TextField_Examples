@@ -31,7 +31,7 @@ class ZipDelegate: NSObject, UITextFieldDelegate {
        
         //Catch exception of 0 or nil input and return max length of text
         let zipText = textField.text?.characters.count
-        if zipText == 0 || zipText == nil{
+        if zipText == nil{
             print("User alert, need to enter text")
         } else {
             checkMaxLength(textField, maxLength: maxLength)

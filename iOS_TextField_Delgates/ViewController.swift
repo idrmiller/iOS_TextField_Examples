@@ -16,11 +16,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var lockTextField: UITextField!
     @IBOutlet weak var lockSwitch: UISwitch!
     
+    let zipDelegate = ZipDelegate()
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        self.zipTextField.delegate = zipDelegate
     }
 
     override func didReceiveMemoryWarning() {
