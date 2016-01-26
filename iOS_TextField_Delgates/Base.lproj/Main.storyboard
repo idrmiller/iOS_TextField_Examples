@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="157" id="yAv-ns-IIT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2gK-Fg-fop">
                                 <rect key="frame" x="255" y="129" width="157" height="30"/>
