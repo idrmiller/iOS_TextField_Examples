@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D35617401C57161D0086A9DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D356173F1C57161D0086A9DC /* AppDelegate.swift */; };
+		D35617421C57161D0086A9DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35617411C57161D0086A9DC /* ViewController.swift */; };
+		D35617451C57161E0086A9DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D35617431C57161E0086A9DC /* Main.storyboard */; };
+		D35617481C57161E0086A9DC /* iOS_TextField_Delgates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D35617461C57161E0086A9DC /* iOS_TextField_Delgates.xcdatamodeld */; };
+		D356174A1C57161E0086A9DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D35617491C57161E0086A9DC /* Assets.xcassets */; };
+		D356174D1C57161E0086A9DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D356174B1C57161E0086A9DC /* LaunchScreen.storyboard */; };
+		D35617581C57161E0086A9DC /* iOS_TextField_DelgatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35617571C57161E0086A9DC /* iOS_TextField_DelgatesTests.swift */; };
+		D35617631C57161E0086A9DC /* iOS_TextField_DelgatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35617621C57161E0086A9DC /* iOS_TextField_DelgatesUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D35617541C57161E0086A9DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35617341C57161D0086A9DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D356173B1C57161D0086A9DC;
+			remoteInfo = iOS_TextField_Delgates;
+		};
+		D356175F1C57161E0086A9DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D35617341C57161D0086A9DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D356173B1C57161D0086A9DC;
+			remoteInfo = iOS_TextField_Delgates;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D356173C1C57161D0086A9DC /* iOS_TextField_Delgates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_TextField_Delgates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D356173F1C57161D0086A9DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D35617411C57161D0086A9DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D35617441C57161E0086A9DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D35617471C57161E0086A9DC /* iOS_TextField_Delgates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_TextField_Delgates.xcdatamodel; sourceTree = "<group>"; };
+		D35617491C57161E0086A9DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D356174C1C57161E0086A9DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D356174E1C57161E0086A9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D35617531C57161E0086A9DC /* iOS_TextField_DelgatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_TextField_DelgatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35617571C57161E0086A9DC /* iOS_TextField_DelgatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TextField_DelgatesTests.swift; sourceTree = "<group>"; };
+		D35617591C57161E0086A9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D356175E1C57161E0086A9DC /* iOS_TextField_DelgatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_TextField_DelgatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35617621C57161E0086A9DC /* iOS_TextField_DelgatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_TextField_DelgatesUITests.swift; sourceTree = "<group>"; };
+		D35617641C57161E0086A9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D35617391C57161D0086A9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35617501C57161E0086A9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D356175B1C57161E0086A9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D35617331C57161D0086A9DC = {
+			isa = PBXGroup;
+			children = (
+				D356173E1C57161D0086A9DC /* iOS_TextField_Delgates */,
+				D35617561C57161E0086A9DC /* iOS_TextField_DelgatesTests */,
+				D35617611C57161E0086A9DC /* iOS_TextField_DelgatesUITests */,
+				D356173D1C57161D0086A9DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D356173D1C57161D0086A9DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D356173C1C57161D0086A9DC /* iOS_TextField_Delgates.app */,
+				D35617531C57161E0086A9DC /* iOS_TextField_DelgatesTests.xctest */,
+				D356175E1C57161E0086A9DC /* iOS_TextField_DelgatesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D356173E1C57161D0086A9DC /* iOS_TextField_Delgates */ = {
+			isa = PBXGroup;
+			children = (
+				D356173F1C57161D0086A9DC /* AppDelegate.swift */,
+				D35617411C57161D0086A9DC /* ViewController.swift */,
+				D35617431C57161E0086A9DC /* Main.storyboard */,
+				D35617491C57161E0086A9DC /* Assets.xcassets */,
+				D356174B1C57161E0086A9DC /* LaunchScreen.storyboard */,
+				D356174E1C57161E0086A9DC /* Info.plist */,
+				D35617461C57161E0086A9DC /* iOS_TextField_Delgates.xcdatamodeld */,
+			);
+			path = iOS_TextField_Delgates;
+			sourceTree = "<group>";
+		};
+		D35617561C57161E0086A9DC /* iOS_TextField_DelgatesTests */ = {
+			isa = PBXGroup;
+			children = (
+				D35617571C57161E0086A9DC /* iOS_TextField_DelgatesTests.swift */,
+				D35617591C57161E0086A9DC /* Info.plist */,
+			);
+			path = iOS_TextField_DelgatesTests;
+			sourceTree = "<group>";
+		};
+		D35617611C57161E0086A9DC /* iOS_TextField_DelgatesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D35617621C57161E0086A9DC /* iOS_TextField_DelgatesUITests.swift */,
+				D35617641C57161E0086A9DC /* Info.plist */,
+			);
+			path = iOS_TextField_DelgatesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D356173B1C57161D0086A9DC /* iOS_TextField_Delgates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D35617671C57161E0086A9DC /* Build configuration list for PBXNativeTarget "iOS_TextField_Delgates" */;
+			buildPhases = (
+				D35617381C57161D0086A9DC /* Sources */,
+				D35617391C57161D0086A9DC /* Frameworks */,
+				D356173A1C57161D0086A9DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_TextField_Delgates;
+			productName = iOS_TextField_Delgates;
+			productReference = D356173C1C57161D0086A9DC /* iOS_TextField_Delgates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D35617521C57161E0086A9DC /* iOS_TextField_DelgatesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D356176A1C57161E0086A9DC /* Build configuration list for PBXNativeTarget "iOS_TextField_DelgatesTests" */;
+			buildPhases = (
+				D356174F1C57161E0086A9DC /* Sources */,
+				D35617501C57161E0086A9DC /* Frameworks */,
+				D35617511C57161E0086A9DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35617551C57161E0086A9DC /* PBXTargetDependency */,
+			);
+			name = iOS_TextField_DelgatesTests;
+			productName = iOS_TextField_DelgatesTests;
+			productReference = D35617531C57161E0086A9DC /* iOS_TextField_DelgatesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D356175D1C57161E0086A9DC /* iOS_TextField_DelgatesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D356176D1C57161E0086A9DC /* Build configuration list for PBXNativeTarget "iOS_TextField_DelgatesUITests" */;
+			buildPhases = (
+				D356175A1C57161E0086A9DC /* Sources */,
+				D356175B1C57161E0086A9DC /* Frameworks */,
+				D356175C1C57161E0086A9DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D35617601C57161E0086A9DC /* PBXTargetDependency */,
+			);
+			name = iOS_TextField_DelgatesUITests;
+			productName = iOS_TextField_DelgatesUITests;
+			productReference = D356175E1C57161E0086A9DC /* iOS_TextField_DelgatesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D35617341C57161D0086A9DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "LM Labs";
+				TargetAttributes = {
+					D356173B1C57161D0086A9DC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					D35617521C57161E0086A9DC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D356173B1C57161D0086A9DC;
+					};
+					D356175D1C57161E0086A9DC = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = D356173B1C57161D0086A9DC;
+					};
+				};
+			};
+			buildConfigurationList = D35617371C57161D0086A9DC /* Build configuration list for PBXProject "iOS_TextField_Delgates" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D35617331C57161D0086A9DC;
+			productRefGroup = D356173D1C57161D0086A9DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D356173B1C57161D0086A9DC /* iOS_TextField_Delgates */,
+				D35617521C57161E0086A9DC /* iOS_TextField_DelgatesTests */,
+				D356175D1C57161E0086A9DC /* iOS_TextField_DelgatesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D356173A1C57161D0086A9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D356174D1C57161E0086A9DC /* LaunchScreen.storyboard in Resources */,
+				D356174A1C57161E0086A9DC /* Assets.xcassets in Resources */,
+				D35617451C57161E0086A9DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D35617511C57161E0086A9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D356175C1C57161E0086A9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D35617381C57161D0086A9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35617421C57161D0086A9DC /* ViewController.swift in Sources */,
+				D35617401C57161D0086A9DC /* AppDelegate.swift in Sources */,
+				D35617481C57161E0086A9DC /* iOS_TextField_Delgates.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D356174F1C57161E0086A9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35617581C57161E0086A9DC /* iOS_TextField_DelgatesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D356175A1C57161E0086A9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D35617631C57161E0086A9DC /* iOS_TextField_DelgatesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D35617551C57161E0086A9DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D356173B1C57161D0086A9DC /* iOS_TextField_Delgates */;
+			targetProxy = D35617541C57161E0086A9DC /* PBXContainerItemProxy */;
+		};
+		D35617601C57161E0086A9DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D356173B1C57161D0086A9DC /* iOS_TextField_Delgates */;
+			targetProxy = D356175F1C57161E0086A9DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D35617431C57161E0086A9DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D35617441C57161E0086A9DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D356174B1C57161E0086A9DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D356174C1C57161E0086A9DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D35617651C57161E0086A9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D35617661C57161E0086A9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D35617681C57161E0086A9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS_TextField_Delgates/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idrmiller360..iOS-TextField-Delgates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D35617691C57161E0086A9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOS_TextField_Delgates/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idrmiller360..iOS-TextField-Delgates";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D356176B1C57161E0086A9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOS_TextField_DelgatesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idrmiller360..iOS-TextField-DelgatesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_TextField_Delgates.app/iOS_TextField_Delgates";
+			};
+			name = Debug;
+		};
+		D356176C1C57161E0086A9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = iOS_TextField_DelgatesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idrmiller360..iOS-TextField-DelgatesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_TextField_Delgates.app/iOS_TextField_Delgates";
+			};
+			name = Release;
+		};
+		D356176E1C57161E0086A9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOS_TextField_DelgatesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idrmiller360..iOS-TextField-DelgatesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOS_TextField_Delgates;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D356176F1C57161E0086A9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = iOS_TextField_DelgatesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.idrmiller360..iOS-TextField-DelgatesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = iOS_TextField_Delgates;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D35617371C57161D0086A9DC /* Build configuration list for PBXProject "iOS_TextField_Delgates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35617651C57161E0086A9DC /* Debug */,
+				D35617661C57161E0086A9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D35617671C57161E0086A9DC /* Build configuration list for PBXNativeTarget "iOS_TextField_Delgates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D35617681C57161E0086A9DC /* Debug */,
+				D35617691C57161E0086A9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D356176A1C57161E0086A9DC /* Build configuration list for PBXNativeTarget "iOS_TextField_DelgatesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D356176B1C57161E0086A9DC /* Debug */,
+				D356176C1C57161E0086A9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D356176D1C57161E0086A9DC /* Build configuration list for PBXNativeTarget "iOS_TextField_DelgatesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D356176E1C57161E0086A9DC /* Debug */,
+				D356176F1C57161E0086A9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D35617461C57161E0086A9DC /* iOS_TextField_Delgates.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D35617471C57161E0086A9DC /* iOS_TextField_Delgates.xcdatamodel */,
+			);
+			currentVersion = D35617471C57161E0086A9DC /* iOS_TextField_Delgates.xcdatamodel */;
+			path = iOS_TextField_Delgates.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D35617341C57161D0086A9DC /* Project object */;
+}
