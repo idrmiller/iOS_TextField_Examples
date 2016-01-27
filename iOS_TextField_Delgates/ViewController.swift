@@ -17,12 +17,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var lockSwitch: UISwitch!
     
     let zipDelegate = ZipDelegate()
+    let cashDelegate = CashDelegate()
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.zipTextField.delegate = zipDelegate
+        self.cashTextField.delegate = cashDelegate
     }
 
     override func didReceiveMemoryWarning() {
